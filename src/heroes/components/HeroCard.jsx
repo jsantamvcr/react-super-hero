@@ -14,9 +14,11 @@ export const HeroCard = ({
     const charactersByHero = (<p>{characters}</p>)
 
     return (
-        <div className="col">
+        <div className="col animate__animated animate__fadeIn">
             <div className="card">
-                <img src={heroImageUrl} className="card-img-top" alt={superhero}/>
+                <div>
+                    <img src={heroImageUrl} className="card-img-top" alt={superhero}/>
+                </div>
                 <div className="card-body">
                     <h5 className="card-title">{superhero}</h5>
                     <p className="card-text">Publisher: {publisher}</p>
