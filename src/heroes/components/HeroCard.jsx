@@ -29,7 +29,7 @@ export const HeroCard = ({
                     }
 
                     {/*Link to more details:*/}
-                    <Link to={`/heroes/${id}`}>
+                    <Link to={`/hero/${id}`}>
                         <button className="btn btn-primary">
                             More details
                         </button>
